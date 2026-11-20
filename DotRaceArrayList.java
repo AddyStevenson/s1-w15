@@ -204,7 +204,12 @@ public class DotRaceArrayList extends JPanel {
 ArrayList<Color> takenColors = new ArrayList<Color>();
    // returns a random element from the someColors ArrayList
    public Color randomColor() {
+      while(){
+         takenColors.add(someColors.get(randGen.nextInt(someColors.size())));
+         if(someColors.get(randGen.nextInt(someColors.size())) = takenColors){
 
+         }
+      }
        //FINISH THIS: MAKE SURE IT NEVER REPEATS until all used
 
       return someColors.get(randGen.nextInt(someColors.size()));
