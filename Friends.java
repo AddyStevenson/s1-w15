@@ -17,10 +17,11 @@ public class Friends {
 
        // add three names to the ArrayList
    }
-   
-   public void printRandomFriend(){
-    System.out.println(friends.get(rand.nextInt(2)+ 1));
-       //return a random Name object from the List
+
+    public Name getRandomFriend(){
+        int x = (int)(Math.random() * friends.size());
+        return friends.get(x);
+
     }
    
   
